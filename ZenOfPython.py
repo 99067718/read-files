@@ -1,7 +1,7 @@
 import time
 
-with open("C:/Users/HP/Documents/Klas 1/SoftwareDevelopment/2022/Read-Write/read-files/README.md") as file:
-    content = file.readlines()
+with open("C:/Users/HP/Documents/Klas 1/SoftwareDevelopment/2022/Read-Write/read-files/README.md") as empty:
+    content = empty.readlines()
     for i in range(len(content)):
         time.sleep(1)
         print(content[i])
